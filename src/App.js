@@ -6,7 +6,7 @@ import Photography from "./Screens/Photography/Photography";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
