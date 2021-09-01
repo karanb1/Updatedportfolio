@@ -7,6 +7,10 @@ import Me from "../../assets/me.jpg";
 import Navigator from "../../Components/Navigator";
 
 const Main = () => {
+  const redirect = (link) => {
+    window.location.href = link;
+  };
+
   return (
     <div className="min-h-screen border-b border-gray-200 sm:mx-8 mx-4">
       <Navigator />
@@ -44,13 +48,47 @@ const Main = () => {
           <p className="mx-3 mb-4 mt-2 text-dark-gray ml-2">
             💼 Remote Developer @ Causal Funnel, San Francisco, USA 🇺🇸
           </p>
-          <div className="flex ml-2">
-            <GrLinkedin className="fill-current text-3xl text-primary cursor-pointer" />
-            <VscGithub className="ml-3 text-3xl fill-current text-primary cursor-pointer" />
-            <FaMediumM className="ml-3 text-3xl fill-current text-primary cursor-pointer" />
-            <FaInstagram className="ml-3 text-3xl fill-current text-primary cursor-pointer" />
-            <FaTwitter className="ml-3 text-3xl fill-current text-primary cursor-pointer" />
-            <VscMail className="ml-3 text-3xl fill-current text-primary cursor-pointer" />
+          <div className="flex ml-2 items-center">
+            <GrLinkedin
+              className="fill-current text-3xl text-primary cursor-pointer"
+              onClick={() =>
+                redirect("https://www.linkedin.com/in/karan-balodi-11840916b/")
+              }
+            />
+            <VscGithub
+              className="ml-3 text-3xl fill-current text-primary cursor-pointer"
+              onClick={() => redirect("https://www.github.com/karanb1/")}
+            />
+            <FaMediumM
+              className="ml-3 text-3xl fill-current text-primary cursor-pointer"
+              onClick={() => redirect("https://medium.com/@karanbalodi")}
+            />
+            <FaInstagram
+              className="ml-3 text-3xl fill-current text-primary cursor-pointer"
+              onClick={() => redirect("https://www.instagram.com/karanbalodi/")}
+            />
+            <FaTwitter
+              className="ml-3 text-3xl fill-current text-primary cursor-pointer"
+              onClick={() => redirect("https://twitter.com/balodikanu125")}
+            />
+            <VscMail
+              className="ml-3 text-3xl fill-current text-primary cursor-pointer"
+              onClick={() => {
+                window.open(
+                  "mailto:karanbalodi1@gmail.com?subject=Hello Karan&body=Hi Karan. I would like to connect with you"
+                );
+              }}
+            />
+            <span
+              className="ml-3 text-xl fill-current text-primary cursor-pointer"
+              onClick={() => {
+                window.open(
+                  "mailto:karanbalodi1@gmail.com?subject=`Hello Karan`&body=`Hi Karan. I would like to connect with you`"
+                );
+              }}
+            >
+              Resume
+            </span>
           </div>
         </div>
         <div className="hidden sm:block">

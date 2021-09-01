@@ -1,6 +1,19 @@
 import React from "react";
 
-const ProjectsCard = ({ img, title, start, end, description, tech, team }) => {
+const ProjectsCard = ({
+  img,
+  title,
+  start,
+  end,
+  description,
+  tech,
+  team,
+  link,
+}) => {
+  const redirect = () => {
+    window.location.href = link;
+  };
+
   return (
     <div className="flex flex-col mb-8 sm:mb-0">
       <img
@@ -14,7 +27,10 @@ const ProjectsCard = ({ img, title, start, end, description, tech, team }) => {
         {team === 1 ? "member" : "members"}
       </p>
       <p className="mt-4 text-primary text-sm">{description}</p>
-      <p className="mt-2 text-sm text-blue-500 font-semibold hover:underline cursor-pointer">
+      <p
+        className="mt-2 text-sm text-blue-500 font-semibold hover:underline cursor-pointer"
+        onClick={redirect}
+      >
         See project
       </p>
       <p className="mt-2 text-sm text-primary font-medium">

@@ -2,6 +2,10 @@ import React from "react";
 import { BsLink45Deg } from "react-icons/bs";
 
 const Work = () => {
+  const redirect = (link) => {
+    window.location.href = link;
+  };
+
   return (
     <div className="mx-4 sm:mx-8 sm:px-4 py-16 border-b border-gray-200">
       <h1 className="text-primary text-3xl sm:text-4xl font-medium">
@@ -12,7 +16,10 @@ const Work = () => {
           <div className="rounded-full h-8 w-8 bg-gray-100 absolute -left-4 flex justify-center items-center">
             <div className="rounded-full h-4 w-4 bg-gray-400" />
           </div>
-          <h1 className="text-purple-900 bg-purple-100 p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer">
+          <h1
+            className="text-purple-900 bg-purple-100 p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer"
+            onClick={() => redirect("https://www.causalfunnel.com/")}
+          >
             Causal Funnel&nbsp;
             <BsLink45Deg className="fill-current text-xl text-purple-900 cursor-pointer" />
           </h1>
@@ -20,8 +27,8 @@ const Work = () => {
             🗓 July 2021 - Present | 📍 San Francisco, USA 🇺🇸
           </p>
           <p className="mt-4 text-primary text-sm">
-            Working with a highly skilled team of ex-apple, microsoft data
-            scientists to build a platform for eCommerce funnel Optimastion. My
+            Working with a highly skilled team of ex-Apple, Microsoft data
+            scientists to build a platform for eCommerce funnel optimization. My
             responsibilities includes:
             <br />
             <p className="ml-4 mt-2">
@@ -43,7 +50,10 @@ const Work = () => {
           <div className="rounded-full h-8 w-8 bg-gray-100 absolute -left-4 flex justify-center items-center">
             <div className="rounded-full h-4 w-4 bg-gray-400" />
           </div>
-          <h1 className="text-blue-900 bg-blue-100 p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer">
+          <h1
+            className="text-blue-900 bg-blue-100 p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer"
+            onClick={() => redirect("https://www.fastor.ai/")}
+          >
             Fastor.ai&nbsp;
             <BsLink45Deg className="fill-current text-xl text-blue-900 cursor-pointer" />
           </h1>
@@ -52,7 +62,7 @@ const Work = () => {
           </p>
           <p className="mt-4 text-primary text-sm">
             I was working as a Frontend lead for developing user facing products
-            like dashboards, PWAs and mobile apps. My responsibilities includes:
+            like dashboards, PWAs and mobile apps. My responsibilities included:
             <br />
             <p className="ml-4 mt-2">
               1. Converting figma designs into pixel perfect and reusable UI
@@ -78,7 +88,10 @@ const Work = () => {
           <div className="rounded-full h-8 w-8 bg-gray-100 absolute -left-4 flex justify-center items-center">
             <div className="rounded-full h-4 w-4 bg-gray-400" />
           </div>
-          <h1 className="text-yellow-800 bg-yellow-100 p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer">
+          <h1
+            className="text-yellow-800 bg-yellow-100 p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer"
+            onClick={() => redirect("https://www.coox.in/")}
+          >
             Coox&nbsp;
             <BsLink45Deg className="fill-current text-xl text-yellow-800 cursor-pointer" />
           </h1>
@@ -86,10 +99,10 @@ const Work = () => {
             🗓 Apr 2020 - Sept 2020 | 📍 Noida, India 🇮🇳
           </p>
           <p className="mt-4 text-primary text-sm">
-            I was working as a react native developer to create the MVP android
+            Worked as a react native developer to create the MVP android
             application for COOX to provide a seamless onboarding and
             verification service for cooks and chefs across India. My
-            responsibilities includes:
+            responsibilities included:
             <br />
             <p className="ml-4 mt-2">
               1. Create and ship new features on the COOX android application.

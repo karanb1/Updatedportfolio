@@ -17,6 +17,7 @@ const projects = [
     description:
       "A web application that provides meaningful data to the clients with the help of AI cookie, AI Fabric and AI Funnel so that they can convert and retain more customers.",
     technologies: "Angular, RxJS, Firebase, NodeJS, SCSS.",
+    link: "https://www.causalfunnel.com/login",
   },
   {
     img: Dashboard,
@@ -28,6 +29,7 @@ const projects = [
       "A merchant web application to manage multiple restaurants or an online business. It helps in cataloging, offer management, point of sale (POS), managing table in a restaurant, delivery systems etc.",
     technologies:
       "ReactJS, Redux, One Signal, React Router, CSS, ReactContext API, Apollo GraphQL, Google Maps API, Geolocation, GoogleWorkbox, NodeJS, Axios.",
+    link: "https://business.fastor.ai/",
   },
   {
     img: Ssa,
@@ -39,6 +41,7 @@ const projects = [
       "An iOS application to display large set of inventory of cars and to find nearest car dealers in USA. There are filters for certified, used and new cars with features and reviews for each car so that user can make a better decision.",
     technologies:
       "React Native, Redux, One Signal, React Navigation, Geolocation, Axios.",
+    link: "https://apps.apple.com/in/app/shop-smart-autos/id1550982125",
   },
   {
     img: Cmfi,
@@ -49,6 +52,7 @@ const projects = [
     description:
       "An initiative by chef Saransh Goila and the fastor team to provide home cooked meal to covid patients. It was featured in Forbes, BBC World, CNBC etc and was used by more than five lakh Indians.",
     technologies: "ReactJS, React Router, Axios, SCSS",
+    link: "https://indianexpress.com/article/lifestyle/food-wine/chef-saransh-goila-shares-list-of-covid-meal-providers-across-india-7282735/",
   },
   {
     img: Res,
@@ -60,6 +64,7 @@ const projects = [
       "An application to handle delivery, dinein and in-car-takeaway for a restaurant on the client side. It supports multiple orders, scan and view menu, scan and pay etc.",
     technologies:
       "ReactJS, Redux, React Router, React Spring, SCSS, Axios, Google Maps API, Geolocation, Google Workbox.",
+    link: "https://fastor-cafe.team.fastor.in/",
   },
   {
     img: Coox,
@@ -71,6 +76,7 @@ const projects = [
       "COOX mvp android application to manage booking and onboarding of cooks and chefs across India. It helps in speeding up the verification process for the chefs and allows them to instantly accept bookings near them.",
     technologies:
       "React Native, Redux, Firebase, React Navigation, Geolocation, Geofencing, Axios, Expo.",
+    link: "https://play.google.com/store/apps/details?id=in.coox.partner&hl=en_IN&gl=US",
   },
 ];
 
@@ -90,6 +96,7 @@ const Projects = () => {
             description={item.description}
             tech={item.technologies}
             team={item.team}
+            link={item.link}
           />
         ))}
       </div>

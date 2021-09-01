@@ -1,8 +1,19 @@
 import React from "react";
 
 const BlogRow = () => {
+  const redirect = (link) => {
+    window.location.href = link;
+  };
+
   return (
-    <div className="cursor-pointer">
+    <div
+      className="cursor-pointer"
+      onClick={() =>
+        redirect(
+          "https://medium.com/coox-tech/what-is-a-progressive-web-app-pwa-and-how-to-convert-your-react-native-app-into-a-pwa-using-expo-11540ff116a"
+        )
+      }
+    >
       <h1 className="text-primary font-medium text-2xl mt-8">
         What is a PWA and and how to convert your react native app into a PWA
         using expo.
