@@ -28,7 +28,7 @@ const Main = () => {
         </div>
 
         <div className="mt-10 flex flex-col justify-center sm:mt-0 sm:mr-20">
-          <p className="p-force-lineheight text-primary text-3xl sm:text-5xl text-3xl font-medium subpixel-antialiased">
+          <p className="p-force-lineheight text-primary text-2xl sm:text-5xl text-3xl font-medium subpixel-antialiased">
             Hey 🖐🏼 I am Karan. I am a{" "}
             <span className="bg-pink-100 underline text-pink-800 rounded px-1">
               Developer
@@ -46,7 +46,7 @@ const Main = () => {
           </p>
           <p className="mt-4 text-dark-gray ml-1">📍 New Delhi, India 🇮🇳</p>
           <p className="mx-3 mb-4 mt-2 text-dark-gray ml-2">
-            💼 Remote Developer @ Causal Funnel, San Francisco, USA 🇺🇸
+            💼  &nbsp; SDE - Frontend @ Spinny, India
           </p>
           <div className="flex ml-2 items-center">
             <GrLinkedin
@@ -82,8 +82,8 @@ const Main = () => {
             <span
               className="ml-3 text-xl fill-current text-primary cursor-pointer"
               onClick={() => {
-                window.open(
-                  "mailto:karanbalodi1@gmail.com?subject=`Hello Karan`&body=`Hi Karan. I would like to connect with you`"
+                redirect(
+                  "https://drive.google.com/file/d/11okWmJiaY88_OK3uTaN8BieOYP7EggrU/view?usp=sharing"
                 );
               }}
             >

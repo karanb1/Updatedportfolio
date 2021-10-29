@@ -8,7 +8,7 @@ const Footer = () => {
       <span className="bg-green-100 text-green-800 rounded px-1">
         Developed
       </span>{" "}
-      with 💜 by Karan Balodi
+      with 💜  by Karan Balodi
     </div>
   );
 };

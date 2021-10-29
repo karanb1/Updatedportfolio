@@ -18,8 +18,8 @@ const About = () => {
           <p className="text-dark-gray text-sm sm:text-lg sm:mt-4 sm:mt-9">
             Hey there, I'm Karan! I am a senior year student pursuing bachelors
             in Infromation Technology at Maharaja Surajmal Institute located in
-            new delhi, India. I am currently working as a developer at{" "}
-            <span className="text-purple-500 font-semibold">Causal Funnel</span>
+            new delhi, India. I am currently working as a Software development Engineer at{" "}
+            <span className="text-red-500 font-semibold">Spinny</span>, India’s most trusted used car brand and is on its way to become a unicorn
             . I am passionate about creating easy to use products and I mostly
             tend to lean into user facing projects which involves highly
             interactive and dynamic user experience. I believe that design and
@@ -35,6 +35,7 @@ const About = () => {
             currently use the React ecosystem to create pixel perfect UI
             components for web and mobile applications. Previously, I've had the
             opportunity to work with the amazing team at{" "}
+            <span className="text-purple-500 font-semibold">Causal Funnel</span>,{" "}
             <span className="text-indigo-500 font-semibold">Fastor.ai</span> and{" "}
             <span className="text-yellow-400 font-semibold">COOX</span> where I
             learned about ownership, working in a collaborative environment and

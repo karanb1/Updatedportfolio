@@ -5,11 +5,13 @@ import Education from "./Education";
 
 const About = () => {
   return (
-    <>
+    <div className="2xl:flex justify-center">
+    <div className="2xl:w-10/12">
       <Main />
       <Education />
       <Footer />
-    </>
+   </div>
+   </div>
   );
 };
 

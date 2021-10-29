@@ -12,6 +12,34 @@ const Work = () => {
         Work Experience 🚀
       </h1>
       <div className="flex flex-col mx-4 sm:mx-16 mt-10">
+      <div className="border-l border-gray-300 relative pl-8 pb-6">
+          <div className="rounded-full h-8 w-8 bg-gray-100 absolute -left-4 flex justify-center items-center">
+            <div className="rounded-full h-4 w-4 bg-gray-400" />
+          </div>
+          <h1
+            className="text-pink-900 bg-pink-100 p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer"
+            onClick={() => redirect("https://www.spinny.com/")}
+          >
+            Spinny&nbsp;
+            <BsLink45Deg className="fill-current text-xl text-pink-900 cursor-pointer" />
+          </h1>
+          <p className="text-dark-gray text-sm mt-3">
+            🗓 Oct 2021 - Present | 📍 New Delhi, India 🇮🇳
+          </p>
+          <p className="mt-4 text-primary text-sm">
+            Joined the HUB frontend team at spinny as Software Development Engineer. My responsibilities include:
+            <br />
+            <p className="ml-4 mt-2">
+              1. Migrate current react native code base for HUB app to use Redux flow.
+              <br /> 2. Research and integrate GraphQL APIs using Apollo to fetch data from the backend efficiently.
+              <br /> 3. Implement persistance storage and other features so that the application can be used in offline and low data mode.
+              <br /> 4. Fix bugs and integrate new features on the HUB app according to business requirement.
+            </p>
+          </p>
+          <p className="mt-4 text-primary font-medium">
+            Technologies: Angular, RxJS, Firebase, NodeJS, SCSS.
+          </p>
+        </div>
         <div className="border-l border-gray-300 relative pl-8 pb-6">
           <div className="rounded-full h-8 w-8 bg-gray-100 absolute -left-4 flex justify-center items-center">
             <div className="rounded-full h-4 w-4 bg-gray-400" />
@@ -24,22 +52,20 @@ const Work = () => {
             <BsLink45Deg className="fill-current text-xl text-purple-900 cursor-pointer" />
           </h1>
           <p className="text-dark-gray text-sm mt-3">
-            🗓 July 2021 - Present | 📍 San Francisco, USA 🇺🇸
+            🗓 July 2021 - Sept 2021 | 📍 San Francisco, USA 🇺🇸
           </p>
           <p className="mt-4 text-primary text-sm">
-            Working with a highly skilled team of ex-Apple, Microsoft data
+            Collaborated with a highly skilled team of ex-Apple, Microsoft data
             scientists to build a platform for eCommerce funnel optimization. My
-            responsibilities includes:
+            responsibilities included:
             <br />
             <p className="ml-4 mt-2">
               1. Create meaningful and pixel perfect charts and graphs on the
               frontend using Angular.
               <br /> 2. Optimise the clientside to handle heavy amount of data
               and improve load time.
-              <br /> 3. Create Firebase cloud functions to handle backend logic
-              relevant for the client side.
-              <br /> 4. Integrate Google PSI for clients, manage cookies, filter
-              data.
+              <br /> 3. Identifying the edge cases and scalability while building the backend firebase cloud functions for Real Time Dashboard.
+              <br /> 4. Integrate Google PSI for clients, manage cookies, filter data.
             </p>
           </p>
           <p className="mt-4 text-primary font-medium">
@@ -67,15 +93,11 @@ const Work = () => {
             <p className="ml-4 mt-2">
               1. Converting figma designs into pixel perfect and reusable UI
               components.
-              <br /> 2. Use optimastion techniques, provide feedbacks and create
-              animations to improve user experience.
+              <br /> 2. Understood the business requirements and collaborated with the product team to reduce user pain points.
               <br /> 3. Ship new features and improvements to the two client
               side web apps I made from scratch.
               <br />
-              4. Extensively test and debug features integrated in the web
-              application.
-              <br />
-              5. Implement push notifications and offline mode for web apps.
+              4. Implement push notifications and offline mode for web apps.
             </p>
           </p>
           <p className="mt-4 text-primary font-medium">
@@ -99,7 +121,7 @@ const Work = () => {
             🗓 Apr 2020 - Sept 2020 | 📍 Noida, India 🇮🇳
           </p>
           <p className="mt-4 text-primary text-sm">
-            Worked as a react native developer to create the MVP android
+            Joined the team as a react native developer intern to create the MVP android
             application for COOX to provide a seamless onboarding and
             verification service for cooks and chefs across India. My
             responsibilities included:

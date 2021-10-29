@@ -38,23 +38,27 @@ const Technologies = () => {
         Technical Stack 🖥
       </h1>
       <p className="text-dark-gray text-lg mt-8 ml-2">Tools & Frameworks</p>
-      <section className="flex justify-between w-full flex-wrap my-4 sm:mx-7">
+      <section className="flex justify-between items-center w-full flex-wrap my-4 sm:mx-7">
         {images.map((item) => (
+          <div className="sm:h-32 sm:w-44 h-20 w-36 sm:mr-8 mb-2 sm:mb-6 flex justify-between items-center ">
           <img
             src={item}
             alt="tech"
-            className="sm:h-32 sm:w-44 h-24 w-40 sm:mr-8 mb-2 sm:mb-6"
+            className="sm:h-32 sm:w-44 h-20 w-36 object-contain"
           />
+          </div>
         ))}
       </section>
       <p className="text-dark-gray text-lg mt-8 ml-2">Programming</p>
-      <section className="flex w-full flex-wrap my-4 sm:mx-7">
+      <section className="flex w-full items-center flex-wrap my-6 sm:mx-7">
         {programming.map((item) => (
+          <div className="sm:h-32 sm:w-44 h-20 w-36 sm:mr-8 mb-2 sm:mb-6 flex justify-between items-center ">
           <img
             src={item}
             alt="tech"
-            className="sm:h-36 sm:w-44 h-24 w-32 sm:mr-10 mb-2 sm:mb-6 mt-6"
+            className="sm:h-32 sm:w-44 h-20 w-36 object-contain"
           />
+          </div>
         ))}
       </section>
     </div>

@@ -8,14 +8,16 @@ import Work from "./Work";
 
 const Home = () => {
   return (
-    <>
+    <div className="2xl:flex justify-center">
+    <div className="2xl:w-10/12">
       <Main />
       <Work />
       <Projects />
       <Technologies />
       <Blog />
       <Footer />
-    </>
+    </div>
+    </div>
   );
 };
 
