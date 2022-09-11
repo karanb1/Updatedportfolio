@@ -3,7 +3,7 @@ import React from "react";
 import { FaInstagram, FaMediumM, FaTwitter } from "react-icons/fa";
 import { VscGithub, VscMail } from "react-icons/vsc";
 import { GrLinkedin } from "react-icons/gr";
-import Me from "../../assets/me.jpg";
+import Me from "../../assets/me2.jpg";
 import Navigator from "../../Components/Navigator";
 
 const Main = () => {
@@ -16,14 +16,14 @@ const Main = () => {
       <Navigator />
       <main className=" pb-10 flex sm:flex-row sm:justify-between flex-col select-none">
         <div
-          className="sm:hidden border border-black  self-center border-2 border-indigo-100 rounded  bg-indigo-100"
-          style={{ height: 308, width: 200 }}
+          className="sm:hidden border border-black self-center border-2 border-yellow-200 rounded bg-yellow-100"
+          style={{ height: 288, width: 210 }}
         >
           <img
             src={Me}
             alt="me"
-            style={{ height: 306, width: 300 }}
-            className="object-contain -ml-5 -mt-5"
+            style={{ height: 288, width: 210 }}
+            className="-ml-6 -mt-6 rounded"
           />
         </div>
 
@@ -46,7 +46,7 @@ const Main = () => {
           </p>
           <p className="mt-4 text-dark-gray ml-1">📍 New Delhi, India 🇮🇳</p>
           <p className="mx-3 mb-4 mt-2 text-dark-gray ml-2">
-            💼  &nbsp; SDE - Frontend @ Spinny, India
+            💼  &nbsp; Frontend Engineer @ Razorpay, India
           </p>
           <div className="flex ml-2 items-center">
             <GrLinkedin
@@ -92,8 +92,8 @@ const Main = () => {
           </div>
         </div>
         <div className="hidden sm:block">
-          <div className="border-2 border-indigo-100 rounded mr-10 mt-20 bg-indigo-100">
-            <img src={Me} alt="me" className="rounded -ml-8 -mt-8 pb-8" />
+          <div className="border-2 border-yellow-200 rounded bg-yellow-100 mr-10 mt-20" style={{ height: 500, width: 400 }}>
+            <img src={Me} alt="me" className="rounded -ml-8 -mt-8" style={{ height: 500, width: 400 }}/>
           </div>
         </div>
       </main>

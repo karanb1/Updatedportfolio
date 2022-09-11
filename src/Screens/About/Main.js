@@ -1,6 +1,6 @@
 import React from "react";
 import Navigator from "../../Components/Navigator";
-import AboutI from "../../assets/about.png";
+import AboutI from "../../assets/apple.jpg";
 
 const About = () => {
   return (
@@ -16,11 +16,8 @@ const About = () => {
             NICE TO MEET YOU
           </p>
           <p className="text-dark-gray text-sm sm:text-lg sm:mt-4 sm:mt-9">
-            Hey there, I'm Karan! I am a senior year student pursuing bachelors
-            in Infromation Technology at Maharaja Surajmal Institute located in
-            new delhi, India. I am currently working as a Software development Engineer at{" "}
-            <span className="text-red-500 font-semibold">Spinny</span>, India’s most trusted used car brand and is on its way to become a unicorn
-            . I am passionate about creating easy to use products and I mostly
+            Hey there, I'm Karan! I am a Frontend Engineer at{" "}
+            <span className="text-blue-700 font-semibold">Razorpay</span>, building RazorpayX India's next generation business banking application. I am a 2022 graduate from Guru Gobind Singh Indraprastha Univeristy who is passionate about creating easy to use products and I mostly
             tend to lean into user facing projects which involves highly
             interactive and dynamic user experience. I believe that design and
             technology can make a great impact in lives of millions of people
@@ -34,12 +31,11 @@ const About = () => {
             <span className="text-primary font-semibold">CNBC</span>. I
             currently use the React ecosystem to create pixel perfect UI
             components for web and mobile applications. Previously, I've had the
-            opportunity to work with the amazing team at{" "}
-            <span className="text-purple-500 font-semibold">Causal Funnel</span>,{" "}
-            <span className="text-indigo-500 font-semibold">Fastor.ai</span> and{" "}
-            <span className="text-yellow-400 font-semibold">COOX</span> where I
+            opportunity to work with the amazing teams at{" "}
+            <span className="text-red-600 font-semibold">Spinny</span>, 
+            <span className="text-purple-500 font-semibold"> Causal Funnel</span> where I
             learned about ownership, working in a collaborative environment and
-            how to approach complex real life problems. When I am not coding you
+            how to approach complex real world problems. When I am not coding you
             can find me travelling the world, listening to music, playing
             cricket or playing mobile games.
           </p>

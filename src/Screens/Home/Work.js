@@ -17,14 +17,41 @@ const Work = () => {
             <div className="rounded-full h-4 w-4 bg-gray-400" />
           </div>
           <h1
-            className="text-pink-900 bg-pink-100 p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer"
+            className="text-blue-900 bg-blue-100 font-medium p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer"
+            onClick={() => redirect("https://razorpay.com/")}
+          >
+            Razorpay&nbsp;
+            <BsLink45Deg className="fill-current text-xl text-blue-900 cursor-pointer" />
+          </h1>
+          <p className="text-dark-gray text-sm mt-3">
+            🗓 July 2022 - Present | 📍 Banglore, India 🇮🇳
+          </p>
+          <p className="mt-4 text-primary text-sm">
+            Joined the RazorpayX team as a Frontend Engineer. My responsibilities include:
+            <br />
+            <p className="ml-4 mt-2">
+              1. Building and maintaining the next generation business banking application used by millions of businesses in India.
+              <br />2. Focus on writing 85-90% unit tested components and code to ensure code quality and less bugs.
+              <br /> 3. Collaborating on stages of system development lifecycle from requirement gathering to production releases.
+            </p>
+          </p>
+          <p className="mt-4 text-primary font-medium">
+            Technologies: React Native, Client and server side GraphQL, NodeJS, Android, JEST, React testing library, Devspace.
+          </p>
+        </div>
+      <div className="border-l border-gray-300 relative pl-8 pb-6">
+          <div className="rounded-full h-8 w-8 bg-gray-100 absolute -left-4 flex justify-center items-center">
+            <div className="rounded-full h-4 w-4 bg-gray-400" />
+          </div>
+          <h1
+            className="text-pink-900 bg-pink-100 font-medium p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer"
             onClick={() => redirect("https://www.spinny.com/")}
           >
             Spinny&nbsp;
             <BsLink45Deg className="fill-current text-xl text-pink-900 cursor-pointer" />
           </h1>
           <p className="text-dark-gray text-sm mt-3">
-            🗓 Oct 2021 - Present | 📍 New Delhi, India 🇮🇳
+            🗓 Oct 2021 - June 2022 | 📍 Gurugram, India 🇮🇳
           </p>
           <p className="mt-4 text-primary text-sm">
             Joined the HUB frontend team at spinny as Software Development Engineer. My responsibilities include:
@@ -37,7 +64,7 @@ const Work = () => {
             </p>
           </p>
           <p className="mt-4 text-primary font-medium">
-            Technologies: Angular, RxJS, Firebase, NodeJS, SCSS.
+            Technologies: React Native, Redux, GraphQL, Firebase, WatermelonDB, Android.
           </p>
         </div>
         <div className="border-l border-gray-300 relative pl-8 pb-6">
@@ -45,10 +72,10 @@ const Work = () => {
             <div className="rounded-full h-4 w-4 bg-gray-400" />
           </div>
           <h1
-            className="text-purple-900 bg-purple-100 p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer"
+            className="text-purple-900 bg-purple-100 font-medium p-2 flex rounded w-36 -mt-1 items-center hover:underline cursor-pointer"
             onClick={() => redirect("https://www.causalfunnel.com/")}
           >
-            Causal Funnel&nbsp;
+            CausalFunnel&nbsp;
             <BsLink45Deg className="fill-current text-xl text-purple-900 cursor-pointer" />
           </h1>
           <p className="text-dark-gray text-sm mt-3">
@@ -77,17 +104,17 @@ const Work = () => {
             <div className="rounded-full h-4 w-4 bg-gray-400" />
           </div>
           <h1
-            className="text-blue-900 bg-blue-100 p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer"
+            className="text-blue-900 bg-indigo-100 font-medium p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer"
             onClick={() => redirect("https://www.fastor.ai/")}
           >
             Fastor.ai&nbsp;
-            <BsLink45Deg className="fill-current text-xl text-blue-900 cursor-pointer" />
+            <BsLink45Deg className="fill-current text-xl text-indigo-900 cursor-pointer" />
           </h1>
           <p className="text-dark-gray text-sm mt-3">
             🗓 Oct 2020 - June 2021 | 📍 New Delhi, India 🇮🇳
           </p>
           <p className="mt-4 text-primary text-sm">
-            I was working as a Frontend lead for developing user facing products
+            I was working as a Frontend intern for developing user facing products
             like dashboards, PWAs and mobile apps. My responsibilities included:
             <br />
             <p className="ml-4 mt-2">
@@ -111,7 +138,7 @@ const Work = () => {
             <div className="rounded-full h-4 w-4 bg-gray-400" />
           </div>
           <h1
-            className="text-yellow-800 bg-yellow-100 p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer"
+            className="text-yellow-800 bg-yellow-100 font-medium p-2 rounded w-36 flex items-center -mt-1 hover:underline cursor-pointer"
             onClick={() => redirect("https://www.coox.in/")}
           >
             Coox&nbsp;
