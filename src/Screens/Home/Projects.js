@@ -8,29 +8,29 @@ import Res from "../../assets/res.jpg";
 import Coox from "../../assets/coox.jpg";
 
 const projects = [
-  {
-    img: CF,
-    start: "July 2021",
-    end: "Present",
-    title: "Causal Funnel Dashboard",
-    team: 2,
-    description:
-      "A web application that provides meaningful data to the clients with the help of AI cookie, AI Fabric and AI Funnel so that they can convert and retain more customers.",
-    technologies: "Angular, RxJS, Firebase, NodeJS, SCSS.",
-    link: "https://www.causalfunnel.com/login",
-  },
-  {
-    img: Dashboard,
-    start: "Oct 2020",
-    end: "June 2021",
-    title: "FastorxBecho Merchant Dashboard",
-    team: 2,
-    description:
-      "A merchant web application to manage multiple restaurants or an online business. It helps in cataloging, offer management, point of sale (POS), managing table in a restaurant, delivery systems etc.",
-    technologies:
-      "ReactJS, Redux, One Signal, React Router, CSS, ReactContext API, Apollo GraphQL, Google Maps API, Geolocation, GoogleWorkbox, NodeJS, Axios.",
-    link: "https://business.fastor.ai/",
-  },
+  // {
+  //   img: CF,
+  //   start: "July 2021",
+  //   end: "Present",
+  //   title: "Causal Funnel Dashboard",
+  //   team: 2,
+  //   description:
+  //     "A web application that provides meaningful data to the clients with the help of AI cookie, AI Fabric and AI Funnel so that they can convert and retain more customers.",
+  //   technologies: "Angular, RxJS, Firebase, NodeJS, SCSS.",
+  //   link: "https://www.causalfunnel.com/login",
+  // },
+  // {
+  //   img: Dashboard,
+  //   start: "Oct 2020",
+  //   end: "June 2021",
+  //   title: "FastorxBecho Merchant Dashboard",
+  //   team: 2,
+  //   description:
+  //     "A merchant web application to manage multiple restaurants or an online business. It helps in cataloging, offer management, point of sale (POS), managing table in a restaurant, delivery systems etc.",
+  //   technologies:
+  //     "ReactJS, Redux, One Signal, React Router, CSS, ReactContext API, Apollo GraphQL, Google Maps API, Geolocation, GoogleWorkbox, NodeJS, Axios.",
+  //   link: "https://business.fastor.ai/",
+  // },
   {
     img: Ssa,
     start: "Oct 2020",
@@ -54,30 +54,30 @@ const projects = [
     technologies: "ReactJS, React Router, Axios, SCSS",
     link: "https://indianexpress.com/article/lifestyle/food-wine/chef-saransh-goila-shares-list-of-covid-meal-providers-across-india-7282735/",
   },
-  {
-    img: Res,
-    start: "Oct 2020",
-    end: "June 2021",
-    title: "Fastor Restaurant Application",
-    team: 1,
-    description:
-      "An application to handle delivery, dinein and in-car-takeaway for a restaurant on the client side. It supports multiple orders, scan and view menu, scan and pay etc.",
-    technologies:
-      "ReactJS, Redux, React Router, React Spring, SCSS, Axios, Google Maps API, Geolocation, Google Workbox.",
-    link: "https://fastor-cafe.team.fastor.in/",
-  },
-  {
-    img: Coox,
-    start: "July 2021",
-    end: "Present",
-    title: "COOX Android Application",
-    team: 2,
-    description:
-      "COOX mvp android application to manage booking and onboarding of cooks and chefs across India. It helps in speeding up the verification process for the chefs and allows them to instantly accept bookings near them.",
-    technologies:
-      "React Native, Redux, Firebase, React Navigation, Geolocation, Geofencing, Axios, Expo.",
-    link: "https://play.google.com/store/apps/details?id=in.coox.partner&hl=en_IN&gl=US",
-  },
+  // {
+  //   img: Res,
+  //   start: "Oct 2020",
+  //   end: "June 2021",
+  //   title: "Fastor Restaurant Application",
+  //   team: 1,
+  //   description:
+  //     "An application to handle delivery, dinein and in-car-takeaway for a restaurant on the client side. It supports multiple orders, scan and view menu, scan and pay etc.",
+  //   technologies:
+  //     "ReactJS, Redux, React Router, React Spring, SCSS, Axios, Google Maps API, Geolocation, Google Workbox.",
+  //   link: "https://fastor-cafe.team.fastor.in/",
+  // },
+  // {
+  //   img: Coox,
+  //   start: "July 2021",
+  //   end: "Present",
+  //   title: "COOX Android Application",
+  //   team: 2,
+  //   description:
+  //     "COOX mvp android application to manage booking and onboarding of cooks and chefs across India. It helps in speeding up the verification process for the chefs and allows them to instantly accept bookings near them.",
+  //   technologies:
+  //     "React Native, Redux, Firebase, React Navigation, Geolocation, Geofencing, Axios, Expo.",
+  //   link: "https://play.google.com/store/apps/details?id=in.coox.partner&hl=en_IN&gl=US",
+  // },
 ];
 
 const Projects = () => {
@@ -86,7 +86,7 @@ const Projects = () => {
       <h1 className="text-primary text-3xl sm:text-4xl font-medium">
         Projects 🔥
       </h1>
-      <div className="flex flex-col sm:grid  sm:grid-rows-3  sm:grid-flow-col sm:gap-6 my-10 mx-4 sm:mx-16">
+      <div className="flex flex-col sm:grid  sm:grid-rows-1  sm:grid-flow-col sm:gap-6 my-10 mx-4 sm:mx-16">
         {projects.map((item) => (
           <ProjectsCard
             img={item.img}
